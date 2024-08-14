@@ -1,0 +1,128 @@
+.sidebar {
+  position: fixed;
+  left: 0;
+  top: 55px;
+  bottom: 0;
+  width: 350px;
+  overflow-y: scroll;
+  scrollbar-width: none;
+}
+.sidebar-item-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  margin-top: 22px;
+}
+.sidebar-item-container:hover {
+  background-color: rgb(220, 221, 223);
+}
+.sidebar-image {
+  height: 30px;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+.sidebar button {
+  border: none;
+  background-color: rgb(226, 229, 232);
+  border-radius: 15px;
+  position: relative;
+  margin-left: 20px;
+  position: relative;
+  padding: 10px 20px 20px 10px;
+  margin-right: 20px;
+}
+.seemore-icon {
+  position: absolute;
+  top: 6px;
+  left: 6px;
+  height: 16px;
+}
+.sidebar-footer {
+  color: gray;
+  font-size: 13px;
+  margin-bottom: 15px;
+  line-height: 20px;
+}
+::-webkit-scrollbar {
+  width: 12px; /* Width of the scrollbar */
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1; /* Track color */
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.sidebar::-webkit-scrollbar {
+  width: 0;
+}
+
+.sidebar:hover {
+  scrollbar-width: thin;
+}
+
+.sidebar:hover::-webkit-scrollbar {
+  width: 12px;
+}
+
+.sidebar::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 10px;
+}
+
+.sidebar::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 10px;
+}
+
+.sidebar::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+@media (max-width: 900px) {
+  .sidebar {
+    display: none;
+  }
+  .right-sidebar {
+    display: none;
+  }
+  .main-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .create-story-box,
+  .post-box,
+  .post-card {
+    width: 90%;
+  }
+ .author-name{
+font-size: 12px;
+ }
+ .author-name-container{
+   margin-left: 40px;
+ }
+ .search-bar-container,
+  .middle-section{
+   display: none;
+ }
+ .apps-icon-button{
+   display: none;
+ }
+}
+
+@media (min-width: 900px) {
+  body {
+    padding-left: 500px;
+  }
+  .main-section{
+    margin-left: -40px;
+  }
+}

@@ -1,0 +1,31 @@
+.right-sidebar{
+    position: fixed;
+    right: 0;
+    top: 55px;
+    bottom: 0;
+    width: 350px;
+    overflow-y: scroll;
+    scrollbar-width: none;
+    background-color: rgb(240, 242, 245);
+ }
+ .create-group{
+    display: flex;
+    align-items: center;
+ }
+ .create-group button{
+    border: none;
+    font-size: 25px;
+    margin-right: 20px;
+    background-color: rgb(226, 229, 232);
+    border-radius: 25px;
+    padding: 2px 9px 2px 9px;
+ }
+ .right-sidebar-title{
+    color: gray;
+    font-weight: bold;
+    margin-top: 35px;
+    margin-bottom: 20px;
+ }
+ .right-sidebar-subtitle{
+    font-weight: bold;
+ }
