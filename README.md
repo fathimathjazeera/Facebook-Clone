@@ -3,4 +3,4 @@ This project recreates the Facebook homepage using HTML and CSS. It's a basic cl
 ## Technologies Used
 - REACT
 - CSS
-![Alt text](./assets/facebook-clone.jpg)
+![Facebook Clone](./src/assets/facebook-clone.jpg)
